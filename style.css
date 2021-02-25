@@ -1,6 +1,10 @@
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url('res/comic.ttf');
+}
 body {
 	margin: 40px;
-	font-family: cursive;
+	font-family: 'Comic Sans MS', cursive;
 	font-size: 1.3rem;
 	background-color: #fffce3;
 	color: #2e1b00;
