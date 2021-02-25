@@ -1,0 +1,40 @@
+body {
+	margin: 40px;
+	font-family: cursive;
+	font-size: 1.3rem;
+	background-color: #fffce3;
+	color: #2e1b00;
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #2e1b00;
+		color: #fffce3;
+	}
+}
+main {
+	max-width: 600px;
+	margin: 0 auto;
+}
+header {
+	text-align: center;
+}
+h1 {
+	font-size: 2rem;
+}
+a {
+	color: #B6947F;
+}
+.poppin {
+	border-radius: 20px;
+	margin: 20px 0;
+}
+.emote {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	padding: 0 6px;
+	background-image: url('./res/smol.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
